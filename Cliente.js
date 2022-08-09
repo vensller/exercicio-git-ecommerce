@@ -1,11 +1,10 @@
-function cliente(nome, idade, endereco, telefone, email){
+function cliente(
     nome, 
     idade,
     endereco,
     telefone,
     email,
-
-
+    ){
     this.nome = nome
     this.idade = idade 
     this.endereco = endereco
