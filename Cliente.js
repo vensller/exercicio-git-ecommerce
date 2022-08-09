@@ -6,11 +6,11 @@ function cliente(nome, idade, endereco, telefone, email){
     email,
 
 
-    this.nome 
-    this.idade  
-    this.endereco 
-    this.email
-    this.telefone 
+    this.nome = nome
+    this.idade = idade 
+    this.endereco = endereco
+    this.email = email
+    this.telefone = telefone
     }
 
     module.exports = cliente
