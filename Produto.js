@@ -1,7 +1,8 @@
-function Produto(descricao, quantidadeEmEstoque, valor) {
-    this.descricao = descricao;
-    this.quantidadeEmEstoque = quantidadeEmEstoque;
-    this.valor = valor;
+function Produto(descricao, loja, quantidadeEmEstoque, valor) {
+  this.descricao = descricao;
+  this.quantidadeEmEstoque = quantidadeEmEstoque;
+  this.loja = loja;
+  this.valor = valor;
 }
 
-module.exports = Produto
+module.exports = Produto;

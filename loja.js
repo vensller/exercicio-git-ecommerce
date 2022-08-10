@@ -1,5 +1,6 @@
-function Loja(loja, site, endereco, cnpj, telefone, email) {
+function Loja(loja, site, produtos, endereco, cnpj, telefone, email) {
   this.nome = loja;
+  this.produtos = produtos;
   this.site = site;
   this.endereco = endereco;
   this.cnpj = cnpj;
@@ -7,4 +8,3 @@ function Loja(loja, site, endereco, cnpj, telefone, email) {
   this.email = email;
 }
 module.exports = Loja;
-
